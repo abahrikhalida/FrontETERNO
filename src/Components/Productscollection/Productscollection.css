@@ -1,0 +1,49 @@
+.productscollection{
+
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+  }
+  
+  
+  
+  
+  .productscollection h2{
+      color: #A08F84;
+      font-size: 32px;
+      text-transform: uppercase;
+      font-weight: 400;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      text-align: center; 
+      
+  
+  }.title{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      align-items: center;
+  
+  
+  }
+  .title::before, .title::after{
+      content: "";
+      height: 2px;
+      background-color:#A08F84;
+      display: block;
+      width: 100%;
+  
+  
+  }
+  .productscollection-item{
+          margin-top: 50px;
+          display: flex;
+          gap:30px ;
+      }
+  .items{
+        display: grid;
+        grid-template-columns:1fr  1fr 1fr 1fr;
+        
+        gap: 50px;
+        padding: 50px;
+      }

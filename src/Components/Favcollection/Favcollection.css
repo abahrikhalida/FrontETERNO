@@ -1,0 +1,42 @@
+.favcollection .react-multi-carousel-item {
+  padding: 10px; /* Adjust the padding around each item */
+  transition: all 0.3s ease; /* Optional: Add a smooth transition for hover effects */
+}
+
+.favcollection .react-multi-carousel-item div {
+  margin: 10px; /* Adjust the gap between the items */
+}
+
+.favcollection .items {
+  display: flex;
+  justify-content: center;
+  padding: 20px; 
+}
+.favcollection h2{
+  color: #A08F84;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 20px;
+ 
+  text-align: center; 
+  
+
+}
+.title{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+
+
+}
+.title::before, .title::after{
+  content: "";
+  height: 2px;
+  background-color:#A08F84;
+  display: block;
+  width: 100%;
+
+
+}

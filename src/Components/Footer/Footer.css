@@ -1,0 +1,110 @@
+.footer{
+    background-color: #ECE9E8;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 100px;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .footer-logo {
+    flex: 1;
+    display: flex;
+    
+    justify-content: left;
+    align-items: start;
+  }
+  .news h3{
+    
+    font-weight: 600;
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Pirata';
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .footer-column p{
+    color: #A08F84;
+    font-size: 30px;
+  }
+  
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  .footer h3 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    color: #A08F84;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  
+  
+  .footer input[type="email"] {
+    padding: 8px;
+    width: calc(100% - 100px);
+    border: 1px solid white;
+    border-radius: 10px 0 0 10px; 
+    border-right: none;
+  }
+  
+  .footer button {
+    padding: 8px 12px;
+    background-color: rgba(160, 143, 132, 0.8);
+    color: black;
+    border: 1px solid white; 
+    border-radius: 0 10px 10px 0; 
+    cursor: pointer;
+  }
+  
+  .email-subscribe {
+    display: flex;
+    align-items: center; /* Vertically center align the input and button */
+    width: 100%; /* Ensure the input and button together fill the container */
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  .footer ul li {
+    font-size: 18px;
+    color: #A08F84;;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .footer ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .icons img {
+    width: 46px;
+    height: 22px;
+
+  }
+  
+  
+
+  

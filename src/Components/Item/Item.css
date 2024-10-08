@@ -1,0 +1,31 @@
+.item{
+  width: 416px; 
+  height: 516px;
+  background-color: #ECE9E8;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.item img {
+   cursor: pointer;
+   width: 416px;
+   height: 254px;
+   border-radius: 25px 25px 0px 0px;
+
+   
+}
+.item p{
+   font-size: 30px;
+   font-weight: 600;
+   margin-left: 15px;
+   
+}
+
+.item-price-new{
+   color: #A08F84;
+   font-size: 32px;
+   margin-left: 15px;
+}
+.stars{
+   padding: 15px;
+   margin-top: 12px;
+}

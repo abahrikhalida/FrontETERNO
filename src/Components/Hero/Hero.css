@@ -1,0 +1,55 @@
+.hero{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hero-image img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-overlay{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  
+  border-radius: 8px;
+  padding-top: 90px;
+}
+.hero-title1 {
+  display: flex;
+  font-size: 32px; 
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.hero-title2 {
+  display: flex;
+  font-size: 32px; 
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+.explore-button {
+  background-color: #C5BCB8;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 261px;
+  height: 70px;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  margin-top: 40px;
+  
+  
+}
+
+.explore-button:hover {
+  background-color: #f0f0f0;
+} 
